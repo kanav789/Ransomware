@@ -1,0 +1,31 @@
+.app {
+  max-width: 800px; /* Limit maximum width to improve readability */
+  margin: 0 auto; /* Center align the content */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+h1 {
+  text-align: center; /* Center align the text */
+  margin-top: 50px; /* Add top margin for spacing */
+}
+
+.post {
+  margin-bottom: 20px; /* Add bottom margin for spacing between posts */
+}
+
+.post:last-child {
+  margin-bottom: 0; /* Remove bottom margin from last post */
+}
+
+.pleaseLogin {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+
+  &&:hover {
+    color: blue;
+  }
+}

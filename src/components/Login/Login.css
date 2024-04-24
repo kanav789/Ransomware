@@ -1,0 +1,33 @@
+.login {
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.login input {
+  margin: 10px auto;
+  text-align: center;
+  width: 350px;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(155, 16, 16);
+}
+.login button {
+  margin: 10px auto;
+  width: 150px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(35, 33, 33);
+    color: white;
+    transition: 1s;
+  }
+}
+.login p {
+  margin: 10px auto;
+}

@@ -1,0 +1,81 @@
+.post-box {
+  padding-top: 10vh;
+}
+.post {
+  background-color: white;
+  max-width: 400px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+.post_image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.rightpost {
+  font-size: 1.9em;
+}
+.post_avatar {
+  margin-right: 10px;
+}
+.post-text {
+  font-weight: normal;
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+.post-text span {
+  font-weight: bolder;
+  font-size: 1.3pc;
+}
+.social {
+  display: flex;
+  padding-left: 30px;
+  font-size: 30px;
+  background-color: rgb(210, 204, 204);
+}
+.like {
+  padding-right: 14px;
+  cursor: pointer;
+}
+.comment {
+  cursor: pointer;
+}
+.comment input {
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border: none;
+}
+.comment button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: grey;
+}
+.comment {
+  color: black;
+  font-size: larger;
+  overflow: visible;
+}
+.comments-section {
+  padding: 0 5px;
+}
+.comments-show {
+  display: flex;
+  align-items: center;
+  gap: 290px;
+  background: #efeded;
+}
+.invisiblecomment {
+  display: none;
+}
+.visible {
+  display: block; /* Display the comment when it has the 'visible' class */
+}

@@ -1,0 +1,64 @@
+.addpost {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.addpost h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload input[type="text"],
+.upload input[type="file"],
+.upload button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.upload input[type="text"] {
+  width: 100%;
+}
+
+.upload button {
+  background-color: #66bb6a; /* lighter green */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload button:hover {
+  background-color: #4caf50; /* darker green on hover */
+}
+
+/* Optional: Add styles for file input */
+.upload input[type="file"] {
+  padding: 5px;
+}
+
+/* Optional: Style the file input button */
+.upload input[type="file"]::-webkit-file-upload-button {
+  background-color: #aacfac; /* lighter green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #aacfac; /* darker green on hover */
+  color: white;
+}
