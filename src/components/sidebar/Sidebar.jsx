@@ -34,7 +34,9 @@ function Sidebar() {
       <div className="sidebar">
         <div className="logo ">
           {/* //   <img src="/images/instagram-text-icon.svg" alt="" /> */}
-          <h4>Ransomware</h4>
+          <h4>Ransomware121</h4>
+
+        
         </div>
 
         <div className="right">
