@@ -2,7 +2,7 @@ Hey 🙋‍♂️🙋‍♂️, this is an instagram clone.
 And this is make using react, readux and firebase.
 
 
-# React + Vite
+# https://ransomware121.netlify.app
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
