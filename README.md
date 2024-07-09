@@ -1,12 +1,44 @@
-Hey 🙋‍♂️🙋‍♂️, this is an instagram clone.
-And this is make using react, readux and firebase.
+
+# Ransomware
+
+A Social Media App where everyone can login with there details
+and post on app.
 
 
-# https://ransomware121.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Client:** React, Redux, Css
+
+**Server:** Firebase
+
+
+## Demo
+
+https://ransomware121.netlify.app
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm install
+```
+```bash
+  npm run dev
+```
+
+
+## Authors
+
+- [@KanavRana](https://github.com/kanav789)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+Please adhere to this project's `code of conduct`.
+
